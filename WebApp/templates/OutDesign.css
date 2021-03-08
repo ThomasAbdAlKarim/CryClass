@@ -1,0 +1,52 @@
+html
+{
+  background-size: auto auto;
+  background-image: url("Gradiant.png");
+  background-repeat:no-repeat;
+}
+
+
+h1 
+{
+  max-width: 300px;
+  color: #a3eeff;
+  text-shadow: 1px 1px #ffd4f3, 
+  2px 2px #ffd4f3, 
+  3px 3px #ffd4f3, 
+  4px 4px #ffd4f3, 
+  5px 5px #ffd4f3, 
+  6px 6px #ffd4f3;
+  position: absolute;
+  margin-left: 28%;
+  margin-top: 0%;
+}
+
+span 
+{
+  width: 100%;
+}
+body
+{
+  font-family: 'Righteous', cursive;
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+.Baby
+{
+  position: absolute;
+  width: 35%;
+  height: 38%;
+  margin-bottom: 0%;
+  margin-left: 32%;
+}
+.Bubble
+{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  margin-top: 22%;
+  margin-left: 57%;
+}

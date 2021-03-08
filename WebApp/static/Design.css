@@ -1,0 +1,77 @@
+html
+{
+  background-size: auto auto;
+  background-image: url("Gradiant.png");
+  background-repeat:no-repeat;
+}
+
+
+.Mic
+{
+    position: absolute;
+    top: var(--Top);
+    left: var(--Left);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
+    background-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7); 
+    background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7); 
+    background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7); 
+    background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7); 
+    color: #a7a7a7;
+
+  line-height: 144px;
+  border-radius: 50%;     
+  outline:0 ;
+  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+}
+
+.Mic:hover
+{
+    background-image: linear-gradient(0deg, rgba(213,212,208,1) 0%, rgba(240,240,240,1) 90%);
+}
+.Mic:active
+{
+    box-shadow: 1 1px #666;
+    transform: none;
+    transform: translateY(3.2px);
+}
+
+.progress-ring
+{
+
+  height: var(--HR);
+  width: 30%;
+  position: absolute;
+  top: var(--TopR);
+  left: var(--LeftR);
+    transform: translate(-50%,-50%);
+  
+}
+
+
+
+svg
+{
+  opacity: 0.65;
+  overflow: visible
+}
+
+
+@media all and (max-width : 400px)
+{
+  .Mic
+  {
+    width: 50%;
+    height: 27%;
+    position: absolute;
+    top: var(--Top);
+    left: var(--Left);
+  }
+  .progress-ring
+  {
+    height: -80%;
+  width: -30%;
+    left: -55%;
+     
+  }
+  
+}
