@@ -58,7 +58,7 @@ def Out():
 
 if __name__ == "__main__":
     os.environ['DEBUG'] = "1"
-    app.run(host='192.168.1.103',debug=True,ssl_context='adhoc')
+    app.run(host='#your local ip',debug=True,ssl_context='adhoc')
 
 
 
